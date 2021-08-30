@@ -1,5 +1,5 @@
 #!/bin/sh
-
+echo "Setup For Linux-next Development..."
 git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 cd linux
 git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
